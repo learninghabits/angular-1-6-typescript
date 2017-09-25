@@ -1,0 +1,4 @@
+<h1>{{$ctrl.user.name}}</h1>
+<h2>{{$ctrl.user.location}}</h2>
+<p><img ng-src="{{$ctrl.user.avatar_url}}" title="{{$ctrl.user.name}}" /></p>
+<button ng-click="$ctrl.gotoRepos($ctrl.user.login)">REPOS</button>
